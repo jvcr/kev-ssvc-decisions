@@ -10,17 +10,19 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-10-27. KEV catalog 2026.10.26, 1758 entries.
+Last build: 2026-10-28. KEV catalog 2026.10.27, 1760 entries.
 
 | Decision | Entries |
 |---|---|
-| Fix now (`act`) | 692 |
-| Fix this sprint (`attend`) | 1066 |
+| Fix now (`act`) | 693 |
+| Fix this sprint (`attend`) | 1067 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
+| [CVE-2026-111497](https://vektor.jvcr.se/cve/CVE-2026-111497) | Google | Brotli | 2026-10-27 | Fix now | 0.5548 |
+| [CVE-2026-48356](https://vektor.jvcr.se/cve/CVE-2026-48356) | Adobe | Commerce and Magento | 2026-10-27 | Fix this sprint | 0.3058 |
 | [CVE-2026-109618](https://vektor.jvcr.se/cve/CVE-2026-109618) | PHP Group | PHP | 2026-10-26 | Fix this sprint | 0.9998 |
 | [CVE-2026-109619](https://vektor.jvcr.se/cve/CVE-2026-109619) | PHP Group | PHP | 2026-10-26 | Fix this sprint | 1.0000 |
 | [CVE-2026-110447](https://vektor.jvcr.se/cve/CVE-2026-110447) | Collabora | Collabora Online - Built-in CODE Server | 2026-10-23 | Fix this sprint | 0.1233 |
@@ -34,8 +36,6 @@ Latest KEV additions:
 | [CVE-2025-61624](https://vektor.jvcr.se/cve/CVE-2025-61624) | Fortinet | Multiple Products | 2026-10-16 | Fix this sprint | 0.0134 |
 | [CVE-2026-102764](https://vektor.jvcr.se/cve/CVE-2026-102764) | BeyondTrust | Remote Support | 2026-10-16 | Fix now | 0.1895 |
 | [CVE-2026-21589](https://vektor.jvcr.se/cve/CVE-2026-21589) | Atlassian | Multiple Products | 2026-10-15 | Fix this sprint | 0.9948 |
-| [CVE-2026-0322](https://vektor.jvcr.se/cve/CVE-2026-0322) | Palo Alto Networks | PAN-OS | 2026-10-14 | Fix this sprint | 0.0174 |
-| [CVE-2026-105133](https://vektor.jvcr.se/cve/CVE-2026-105133) | Ahsay | AhsayCBS | 2026-10-14 | Fix this sprint | 0.7924 |
 <!-- stats:end -->
 
 ## Fields

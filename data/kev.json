@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-10-27T15:28:24.622Z",
- "count": 1758,
- "kev_catalog_version": "2026.10.26",
- "kev_date_released": "2026-10-26T22:24:24.6101Z",
+ "generated_at": "2026-10-28T01:42:55.701Z",
+ "count": 1760,
+ "kev_catalog_version": "2026.10.27",
+ "kev_date_released": "2026-10-27T19:00:02.2307Z",
  "decision_model_version": "2026-10-26.r12",
  "mission_assumed": "medium",
  "without_vektor_record": [],
@@ -24,6 +24,86 @@
   }
  },
  "vulnerabilities": [
+  {
+   "cve_id": "CVE-2026-111497",
+   "kev": {
+    "vendor_project": "Google",
+    "product": "Brotli",
+    "vulnerability_name": "Google Brotli Unchecked Return Value Vulnerability",
+    "date_added": "2026-10-27",
+    "due_date": "2026-11-10",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "act",
+    "label": "Fix now",
+    "ssvc_table_result": "Act",
+    "sla_days": 3,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "yes",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.55483,
+    "percentile": 0.9903,
+    "date": "2026-10-27"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-111497"
+  },
+  {
+   "cve_id": "CVE-2026-48356",
+   "kev": {
+    "vendor_project": "Adobe",
+    "product": "Commerce and Magento",
+    "vulnerability_name": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+    "date_added": "2026-10-27",
+    "due_date": "2026-11-10",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Attend",
+    "sla_days": 14,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.30582,
+    "percentile": 0.98231,
+    "date": "2026-10-27"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-48356"
+  },
   {
    "cve_id": "CVE-2026-109618",
    "kev": {
