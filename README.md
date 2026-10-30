@@ -10,32 +10,32 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-10-29. KEV catalog 2026.10.28, 1762 entries.
+Last build: 2026-10-30. KEV catalog 2026.10.29, 1764 entries.
 
 | Decision | Entries |
 |---|---|
-| Fix now (`act`) | 692 |
-| Fix this sprint (`attend`) | 1070 |
+| Fix now (`act`) | 693 |
+| Fix this sprint (`attend`) | 1071 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2026-41709](https://vektor.jvcr.se/cve/CVE-2026-41709) | Broadcom | VMware ESX | 2026-10-28 | Fix this sprint | 0.0030 |
-| [CVE-2026-46300](https://vektor.jvcr.se/cve/CVE-2026-46300) | Linux | Kernel | 2026-10-28 | Fix this sprint | 0.1019 |
-| [CVE-2026-111497](https://vektor.jvcr.se/cve/CVE-2026-111497) | Google | Brotli | 2026-10-27 | Fix this sprint | 0.8799 |
-| [CVE-2026-48356](https://vektor.jvcr.se/cve/CVE-2026-48356) | Adobe | Commerce and Magento | 2026-10-27 | Fix this sprint | 0.5908 |
+| [CVE-2026-76418](https://vektor.jvcr.se/cve/CVE-2026-76418) | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 2026-10-29 | Fix this sprint | 0.0057 |
+| [CVE-2026-97229](https://vektor.jvcr.se/cve/CVE-2026-97229) | GitLab | Community Edition and Enterprise Edition | 2026-10-29 | Fix now | 0.1843 |
+| [CVE-2026-41709](https://vektor.jvcr.se/cve/CVE-2026-41709) | Broadcom | VMware ESX | 2026-10-28 | Fix this sprint | 0.0076 |
+| [CVE-2026-46300](https://vektor.jvcr.se/cve/CVE-2026-46300) | Linux | Kernel | 2026-10-28 | Fix this sprint | 0.1572 |
+| [CVE-2026-111497](https://vektor.jvcr.se/cve/CVE-2026-111497) | Google | Brotli | 2026-10-27 | Fix this sprint | 0.8264 |
+| [CVE-2026-48356](https://vektor.jvcr.se/cve/CVE-2026-48356) | Adobe | Commerce and Magento | 2026-10-27 | Fix this sprint | 0.4458 |
 | [CVE-2026-109618](https://vektor.jvcr.se/cve/CVE-2026-109618) | PHP Group | PHP | 2026-10-26 | Fix this sprint | 0.9998 |
 | [CVE-2026-109619](https://vektor.jvcr.se/cve/CVE-2026-109619) | PHP Group | PHP | 2026-10-26 | Fix this sprint | 1.0000 |
-| [CVE-2026-110447](https://vektor.jvcr.se/cve/CVE-2026-110447) | Collabora | Collabora Online - Built-in CODE Server | 2026-10-23 | Fix this sprint | 0.1233 |
+| [CVE-2026-110447](https://vektor.jvcr.se/cve/CVE-2026-110447) | Collabora | Collabora Online - Built-in CODE Server | 2026-10-23 | Fix this sprint | 0.7331 |
 | [CVE-2026-114625](https://vektor.jvcr.se/cve/CVE-2026-114625) | Arista | VeloCloud Orchestrator | 2026-10-23 | Fix this sprint | 0.0103 |
 | [CVE-2026-106931](https://vektor.jvcr.se/cve/CVE-2026-106931) | EG Secure Solutions | SiteGuard Server Edition | 2026-10-20 | Fix this sprint | 0.0253 |
 | [CVE-2026-110936](https://vektor.jvcr.se/cve/CVE-2026-110936) | Siemens | Software Center | 2026-10-20 | Fix this sprint | 0.0097 |
 | [CVE-2026-96652](https://vektor.jvcr.se/cve/CVE-2026-96652) | Plex | Media Server | 2026-10-20 | Fix this sprint | 0.0182 |
 | [CVE-2026-96654](https://vektor.jvcr.se/cve/CVE-2026-96654) | Plex | Media Server | 2026-10-20 | Fix this sprint | 0.0195 |
 | [CVE-2026-96655](https://vektor.jvcr.se/cve/CVE-2026-96655) | Plex | Media Server | 2026-10-20 | Fix this sprint | 0.0164 |
-| [CVE-2026-96656](https://vektor.jvcr.se/cve/CVE-2026-96656) | Plex | Media Server | 2026-10-20 | Fix this sprint | 0.0179 |
-| [CVE-2025-61624](https://vektor.jvcr.se/cve/CVE-2025-61624) | Fortinet | Multiple Products | 2026-10-16 | Fix this sprint | 0.0134 |
 <!-- stats:end -->
 
 ## Fields
