@@ -1,11 +1,13 @@
 {
- "generated_at": "2026-10-30T02:08:41.126Z",
- "count": 1764,
- "kev_catalog_version": "2026.10.29",
- "kev_date_released": "2026-10-29T19:09:34.4003Z",
+ "generated_at": "2026-10-31T01:48:10.996Z",
+ "count": 1766,
+ "kev_catalog_version": "2026.10.30",
+ "kev_date_released": "2026-10-30T17:02:45.3665Z",
  "decision_model_version": "2026-10-26.r12",
  "mission_assumed": "medium",
- "without_vektor_record": [],
+ "without_vektor_record": [
+  "CVE-2026-118527"
+ ],
  "sources": {
   "kev": {
    "name": "CISA Known Exploited Vulnerabilities Catalog",
@@ -24,6 +26,60 @@
   }
  },
  "vulnerabilities": [
+  {
+   "cve_id": "CVE-2026-111357",
+   "kev": {
+    "vendor_project": "Ivanti",
+    "product": "Connect Secure",
+    "vulnerability_name": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+    "date_added": "2026-10-30",
+    "due_date": "2026-11-02",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Attend",
+    "sla_days": 14,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CISA SSVC"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CISA SSVC"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.00316,
+    "percentile": 0.24569,
+    "date": "2026-10-30"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-111357"
+  },
+  {
+   "cve_id": "CVE-2026-118527",
+   "kev": {
+    "vendor_project": "Ivanti",
+    "product": "Connect Secure",
+    "vulnerability_name": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+    "date_added": "2026-10-30",
+    "due_date": "2026-11-13",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": null,
+   "epss": null,
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-118527"
+  },
   {
    "cve_id": "CVE-2026-76418",
    "kev": {
@@ -58,9 +114,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00574,
-    "percentile": 0.47308,
-    "date": "2026-10-29"
+    "score": 0.0091,
+    "percentile": 0.59949,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-76418"
   },
@@ -87,20 +143,20 @@
      },
      "automatable": {
       "value": "yes",
-      "source": "CVSS vector"
+      "source": "CISA SSVC"
      },
      "technical_impact": {
       "value": "total",
-      "source": "CVSS vector"
+      "source": "CISA SSVC"
      },
      "mission": "medium"
     },
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.18427,
-    "percentile": 0.97215,
-    "date": "2026-10-25"
+    "score": 0.26569,
+    "percentile": 0.98015,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-97229"
   },
@@ -138,9 +194,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00764,
-    "percentile": 0.55307,
-    "date": "2026-10-29"
+    "score": 0.00689,
+    "percentile": 0.52718,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-41709"
   },
@@ -3138,9 +3194,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.83729,
-    "percentile": 0.99685,
-    "date": "2026-10-25"
+    "score": 0.84734,
+    "percentile": 0.99707,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-81578"
   },
@@ -3178,9 +3234,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.60891,
-    "percentile": 0.99147,
-    "date": "2026-10-25"
+    "score": 0.63047,
+    "percentile": 0.992,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-82078"
   },
@@ -4058,9 +4114,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00332,
-    "percentile": 0.26158,
-    "date": "2026-10-25"
+    "score": 0.08567,
+    "percentile": 0.95064,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-68820"
   },
@@ -8778,9 +8834,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.43166,
-    "percentile": 0.98723,
-    "date": "2026-10-22"
+    "score": 0.44431,
+    "percentile": 0.98762,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-20131"
   },
@@ -11979,8 +12035,8 @@
    },
    "epss": {
     "score": 0.00259,
-    "percentile": 0.16628,
-    "date": "2026-10-22"
+    "percentile": 0.17637,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-48572"
   },
@@ -12019,8 +12075,8 @@
    },
    "epss": {
     "score": 0.00262,
-    "percentile": 0.17033,
-    "date": "2026-10-22"
+    "percentile": 0.18043,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-48633"
   },
@@ -16258,9 +16314,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00843,
-    "percentile": 0.57532,
-    "date": "2026-10-22"
+    "score": 0.00783,
+    "percentile": 0.55989,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-21479"
   },
@@ -16298,9 +16354,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00462,
-    "percentile": 0.39893,
-    "date": "2026-10-28"
+    "score": 0.00428,
+    "percentile": 0.37119,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-21480"
   },
@@ -16338,9 +16394,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.0114,
-    "percentile": 0.66399,
-    "date": "2026-10-25"
+    "score": 0.01044,
+    "percentile": 0.64082,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-27038"
   },
@@ -17179,8 +17235,8 @@
    },
    "epss": {
     "score": 0.00447,
-    "percentile": 0.37815,
-    "date": "2026-10-22"
+    "percentile": 0.38852,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-47729"
   },
@@ -20538,9 +20594,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.23432,
-    "percentile": 0.97789,
-    "date": "2026-10-22"
+    "score": 0.26561,
+    "percentile": 0.98014,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-23006"
   },
@@ -34738,9 +34794,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.47914,
-    "percentile": 0.98851,
-    "date": "2026-10-29"
+    "score": 0.44145,
+    "percentile": 0.98753,
+    "date": "2026-10-30"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2022-39197"
   },

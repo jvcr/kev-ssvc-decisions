@@ -10,20 +10,23 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-10-30. KEV catalog 2026.10.29, 1764 entries.
+Last build: 2026-10-31. KEV catalog 2026.10.30, 1766 entries.
 
 | Decision | Entries |
 |---|---|
 | Fix now (`act`) | 693 |
-| Fix this sprint (`attend`) | 1071 |
+| Fix this sprint (`attend`) | 1072 |
+| No Vektor record yet | 1 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2026-76418](https://vektor.jvcr.se/cve/CVE-2026-76418) | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 2026-10-29 | Fix this sprint | 0.0057 |
-| [CVE-2026-97229](https://vektor.jvcr.se/cve/CVE-2026-97229) | GitLab | Community Edition and Enterprise Edition | 2026-10-29 | Fix now | 0.1843 |
-| [CVE-2026-41709](https://vektor.jvcr.se/cve/CVE-2026-41709) | Broadcom | VMware ESX | 2026-10-28 | Fix this sprint | 0.0076 |
+| [CVE-2026-111357](https://vektor.jvcr.se/cve/CVE-2026-111357) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0032 |
+| [CVE-2026-118527](https://vektor.jvcr.se/cve/CVE-2026-118527) | Ivanti | Connect Secure | 2026-10-30 |  |  |
+| [CVE-2026-76418](https://vektor.jvcr.se/cve/CVE-2026-76418) | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 2026-10-29 | Fix this sprint | 0.0091 |
+| [CVE-2026-97229](https://vektor.jvcr.se/cve/CVE-2026-97229) | GitLab | Community Edition and Enterprise Edition | 2026-10-29 | Fix now | 0.2657 |
+| [CVE-2026-41709](https://vektor.jvcr.se/cve/CVE-2026-41709) | Broadcom | VMware ESX | 2026-10-28 | Fix this sprint | 0.0069 |
 | [CVE-2026-46300](https://vektor.jvcr.se/cve/CVE-2026-46300) | Linux | Kernel | 2026-10-28 | Fix this sprint | 0.1572 |
 | [CVE-2026-111497](https://vektor.jvcr.se/cve/CVE-2026-111497) | Google | Brotli | 2026-10-27 | Fix this sprint | 0.8264 |
 | [CVE-2026-48356](https://vektor.jvcr.se/cve/CVE-2026-48356) | Adobe | Commerce and Magento | 2026-10-27 | Fix this sprint | 0.4458 |
@@ -34,8 +37,6 @@ Latest KEV additions:
 | [CVE-2026-106931](https://vektor.jvcr.se/cve/CVE-2026-106931) | EG Secure Solutions | SiteGuard Server Edition | 2026-10-20 | Fix this sprint | 0.0253 |
 | [CVE-2026-110936](https://vektor.jvcr.se/cve/CVE-2026-110936) | Siemens | Software Center | 2026-10-20 | Fix this sprint | 0.0097 |
 | [CVE-2026-96652](https://vektor.jvcr.se/cve/CVE-2026-96652) | Plex | Media Server | 2026-10-20 | Fix this sprint | 0.0182 |
-| [CVE-2026-96654](https://vektor.jvcr.se/cve/CVE-2026-96654) | Plex | Media Server | 2026-10-20 | Fix this sprint | 0.0195 |
-| [CVE-2026-96655](https://vektor.jvcr.se/cve/CVE-2026-96655) | Plex | Media Server | 2026-10-20 | Fix this sprint | 0.0164 |
 <!-- stats:end -->
 
 ## Fields
