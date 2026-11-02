@@ -10,7 +10,7 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-01. KEV catalog 2026.10.30, 1766 entries.
+Last build: 2026-11-02. KEV catalog 2026.10.30, 1766 entries.
 
 | Decision | Entries |
 |---|---|
