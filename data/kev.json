@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T01:48:59.304Z",
+ "generated_at": "2026-11-03T03:42:27.349Z",
  "count": 1766,
  "kev_catalog_version": "2026.10.30",
  "kev_date_released": "2026-10-30T17:02:45.3665Z",
@@ -30354,9 +30354,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01022,
-    "percentile": 0.63493,
-    "date": "2026-11-01"
+    "score": 0.00965,
+    "percentile": 0.617,
+    "date": "2026-11-02"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2023-4211"
   },
@@ -36314,9 +36314,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.76267,
-    "percentile": 0.99538,
-    "date": "2026-10-22"
+    "score": 0.74816,
+    "percentile": 0.99505,
+    "date": "2026-11-02"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2022-44698"
   },
