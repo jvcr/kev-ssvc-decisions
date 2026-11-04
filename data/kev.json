@@ -1,13 +1,11 @@
 {
- "generated_at": "2026-11-03T03:42:27.349Z",
- "count": 1766,
- "kev_catalog_version": "2026.10.30",
- "kev_date_released": "2026-10-30T17:02:45.3665Z",
+ "generated_at": "2026-11-04T02:41:42.222Z",
+ "count": 1767,
+ "kev_catalog_version": "2026.11.03",
+ "kev_date_released": "2026-11-03T20:00:24.8741Z",
  "decision_model_version": "2026-10-26.r12",
  "mission_assumed": "medium",
- "without_vektor_record": [
-  "CVE-2026-118527"
- ],
+ "without_vektor_record": [],
  "sources": {
   "kev": {
    "name": "CISA Known Exploited Vulnerabilities Catalog",
@@ -26,6 +24,46 @@
   }
  },
  "vulnerabilities": [
+  {
+   "cve_id": "CVE-2026-119977",
+   "kev": {
+    "vendor_project": "WordPress",
+    "product": "WordPress Core",
+    "vulnerability_name": "WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+    "date_added": "2026-11-03",
+    "due_date": "2026-11-06",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "act",
+    "label": "Fix now",
+    "ssvc_table_result": "Act",
+    "sla_days": 3,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "yes",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.006,
+    "percentile": 0.48715,
+    "date": "2026-10-31"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-119977"
+  },
   {
    "cve_id": "CVE-2026-111357",
    "kev": {
@@ -76,7 +114,29 @@
     "due_date": "2026-11-13",
     "known_ransomware_campaign_use": "Unknown"
    },
-   "decision": null,
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Track",
+    "sla_days": 14,
+    "policy_floor": "active_exploitation",
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "partial",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
    "epss": null,
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-118527"
   },
@@ -154,9 +214,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.26569,
-    "percentile": 0.98015,
-    "date": "2026-10-30"
+    "score": 0.27692,
+    "percentile": 0.98089,
+    "date": "2026-11-03"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-97229"
   },
@@ -594,9 +654,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01821,
-    "percentile": 0.78608,
-    "date": "2026-10-25"
+    "score": 0.11886,
+    "percentile": 0.96107,
+    "date": "2026-11-03"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-96652"
   },
@@ -1034,9 +1094,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.86766,
-    "percentile": 0.9974,
-    "date": "2026-10-25"
+    "score": 0.88936,
+    "percentile": 0.99778,
+    "date": "2026-11-03"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-104935"
   },
@@ -27715,8 +27775,8 @@
    },
    "epss": {
     "score": 0.00487,
-    "percentile": 0.4098,
-    "date": "2026-10-22"
+    "percentile": 0.4198,
+    "date": "2026-11-03"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2022-48618"
   },
@@ -28754,9 +28814,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00411,
-    "percentile": 0.35187,
-    "date": "2026-10-28"
+    "score": 0.00394,
+    "percentile": 0.33633,
+    "date": "2026-11-03"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2022-22071"
   },
