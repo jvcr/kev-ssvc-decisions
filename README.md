@@ -10,7 +10,7 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-05. KEV catalog 2026.11.04, 1768 entries.
+Last build: 2026-11-06. KEV catalog 2026.11.04, 1768 entries.
 
 | Decision | Entries |
 |---|---|
@@ -21,8 +21,8 @@ Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2024-27834](https://vektor.jvcr.se/cve/CVE-2024-27834) | Apple | Multiple Products | 2026-11-04 | Fix this sprint | 0.0060 |
-| [CVE-2026-119977](https://vektor.jvcr.se/cve/CVE-2026-119977) | WordPress | WordPress Core | 2026-11-03 | Fix now | 0.0102 |
+| [CVE-2024-27834](https://vektor.jvcr.se/cve/CVE-2024-27834) | Apple | Multiple Products | 2026-11-04 | Fix this sprint | 0.0141 |
+| [CVE-2026-119977](https://vektor.jvcr.se/cve/CVE-2026-119977) | WordPress | WordPress Core | 2026-11-03 | Fix now | 0.0116 |
 | [CVE-2026-111357](https://vektor.jvcr.se/cve/CVE-2026-111357) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0053 |
 | [CVE-2026-118527](https://vektor.jvcr.se/cve/CVE-2026-118527) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0082 |
 | [CVE-2026-76418](https://vektor.jvcr.se/cve/CVE-2026-76418) | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 2026-10-29 | Fix this sprint | 0.0082 |
