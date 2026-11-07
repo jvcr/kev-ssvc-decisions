@@ -10,18 +10,19 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-06. KEV catalog 2026.11.04, 1768 entries.
+Last build: 2026-11-07. KEV catalog 2026.11.06, 1769 entries.
 
 | Decision | Entries |
 |---|---|
 | Fix now (`act`) | 694 |
-| Fix this sprint (`attend`) | 1074 |
+| Fix this sprint (`attend`) | 1075 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2024-27834](https://vektor.jvcr.se/cve/CVE-2024-27834) | Apple | Multiple Products | 2026-11-04 | Fix this sprint | 0.0141 |
+| [CVE-2026-19868](https://vektor.jvcr.se/cve/CVE-2026-19868) | SonicWall | SonicOS SSLVPN | 2026-11-06 | Fix this sprint |  |
+| [CVE-2024-27834](https://vektor.jvcr.se/cve/CVE-2024-27834) | Apple | Multiple Products | 2026-11-04 | Fix this sprint | 0.0150 |
 | [CVE-2026-119977](https://vektor.jvcr.se/cve/CVE-2026-119977) | WordPress | WordPress Core | 2026-11-03 | Fix now | 0.0116 |
 | [CVE-2026-111357](https://vektor.jvcr.se/cve/CVE-2026-111357) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0053 |
 | [CVE-2026-118527](https://vektor.jvcr.se/cve/CVE-2026-118527) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0082 |
@@ -35,7 +36,6 @@ Latest KEV additions:
 | [CVE-2026-109619](https://vektor.jvcr.se/cve/CVE-2026-109619) | PHP Group | PHP | 2026-10-26 | Fix this sprint | 1.0000 |
 | [CVE-2026-110447](https://vektor.jvcr.se/cve/CVE-2026-110447) | Collabora | Collabora Online - Built-in CODE Server | 2026-10-23 | Fix this sprint | 0.7331 |
 | [CVE-2026-114625](https://vektor.jvcr.se/cve/CVE-2026-114625) | Arista | VeloCloud Orchestrator | 2026-10-23 | Fix this sprint | 0.0103 |
-| [CVE-2026-106931](https://vektor.jvcr.se/cve/CVE-2026-106931) | EG Secure Solutions | SiteGuard Server Edition | 2026-10-20 | Fix this sprint | 0.0253 |
 <!-- stats:end -->
 
 ## Fields
