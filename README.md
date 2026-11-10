@@ -10,20 +10,24 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-07. KEV catalog 2026.11.06, 1769 entries.
+Last build: 2026-11-10. KEV catalog 2026.11.09, 1773 entries.
 
 | Decision | Entries |
 |---|---|
-| Fix now (`act`) | 694 |
-| Fix this sprint (`attend`) | 1075 |
+| Fix now (`act`) | 697 |
+| Fix this sprint (`attend`) | 1076 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2026-19868](https://vektor.jvcr.se/cve/CVE-2026-19868) | SonicWall | SonicOS SSLVPN | 2026-11-06 | Fix this sprint |  |
+| [CVE-2026-102895](https://vektor.jvcr.se/cve/CVE-2026-102895) | GPUStack | GPUStack | 2026-11-09 | Fix now | 0.0033 |
+| [CVE-2026-116779](https://vektor.jvcr.se/cve/CVE-2026-116779) | SignalWire | FreeSwitch | 2026-11-09 | Fix now | 0.0130 |
+| [CVE-2026-123158](https://vektor.jvcr.se/cve/CVE-2026-123158) | OpenBSD | OpenSSH | 2026-11-09 | Fix this sprint | 0.0101 |
+| [CVE-2026-123218](https://vektor.jvcr.se/cve/CVE-2026-123218) | IBM | Aspera Faspex | 2026-11-09 | Fix now | 0.0040 |
+| [CVE-2026-19868](https://vektor.jvcr.se/cve/CVE-2026-19868) | SonicWall | SonicOS SSLVPN | 2026-11-06 | Fix this sprint | 0.0062 |
 | [CVE-2024-27834](https://vektor.jvcr.se/cve/CVE-2024-27834) | Apple | Multiple Products | 2026-11-04 | Fix this sprint | 0.0150 |
-| [CVE-2026-119977](https://vektor.jvcr.se/cve/CVE-2026-119977) | WordPress | WordPress Core | 2026-11-03 | Fix now | 0.0116 |
+| [CVE-2026-119977](https://vektor.jvcr.se/cve/CVE-2026-119977) | WordPress | WordPress Core | 2026-11-03 | Fix now | 0.0120 |
 | [CVE-2026-111357](https://vektor.jvcr.se/cve/CVE-2026-111357) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0053 |
 | [CVE-2026-118527](https://vektor.jvcr.se/cve/CVE-2026-118527) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0082 |
 | [CVE-2026-76418](https://vektor.jvcr.se/cve/CVE-2026-76418) | Cisco | Secure Firewall ASA Software and Cisco Secure FTD Software | 2026-10-29 | Fix this sprint | 0.0082 |
@@ -32,10 +36,6 @@ Latest KEV additions:
 | [CVE-2026-46300](https://vektor.jvcr.se/cve/CVE-2026-46300) | Linux | Kernel | 2026-10-28 | Fix this sprint | 0.1572 |
 | [CVE-2026-111497](https://vektor.jvcr.se/cve/CVE-2026-111497) | Google | Brotli | 2026-10-27 | Fix this sprint | 0.8264 |
 | [CVE-2026-48356](https://vektor.jvcr.se/cve/CVE-2026-48356) | Adobe | Commerce and Magento | 2026-10-27 | Fix this sprint | 0.4747 |
-| [CVE-2026-109618](https://vektor.jvcr.se/cve/CVE-2026-109618) | PHP Group | PHP | 2026-10-26 | Fix this sprint | 0.9998 |
-| [CVE-2026-109619](https://vektor.jvcr.se/cve/CVE-2026-109619) | PHP Group | PHP | 2026-10-26 | Fix this sprint | 1.0000 |
-| [CVE-2026-110447](https://vektor.jvcr.se/cve/CVE-2026-110447) | Collabora | Collabora Online - Built-in CODE Server | 2026-10-23 | Fix this sprint | 0.7331 |
-| [CVE-2026-114625](https://vektor.jvcr.se/cve/CVE-2026-114625) | Arista | VeloCloud Orchestrator | 2026-10-23 | Fix this sprint | 0.0103 |
 <!-- stats:end -->
 
 ## Fields
