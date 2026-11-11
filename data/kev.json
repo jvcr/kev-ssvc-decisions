@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-10T04:19:32.138Z",
- "count": 1773,
- "kev_catalog_version": "2026.11.09",
- "kev_date_released": "2026-11-09T19:54:37.4945Z",
+ "generated_at": "2026-11-11T02:14:56.296Z",
+ "count": 1779,
+ "kev_catalog_version": "2026.11.10",
+ "kev_date_released": "2026-11-10T19:03:29.8375Z",
  "decision_model_version": "2026-10-26.r12",
  "mission_assumed": "medium",
  "without_vektor_record": [],
@@ -24,6 +24,238 @@
   }
  },
  "vulnerabilities": [
+  {
+   "cve_id": "CVE-2026-111560",
+   "kev": {
+    "vendor_project": "Barracuda Networks",
+    "product": "Multiple Products",
+    "vulnerability_name": "Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-13",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Attend",
+    "sla_days": 14,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CISA SSVC"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CISA SSVC"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.0106,
+    "percentile": 0.64788,
+    "date": "2026-11-09"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-111560"
+  },
+  {
+   "cve_id": "CVE-2026-111793",
+   "kev": {
+    "vendor_project": "Openwave Messaging Limited",
+    "product": "Webtop Media Transcoder",
+    "vulnerability_name": "Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-24",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Track",
+    "sla_days": 14,
+    "policy_floor": "active_exploitation",
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "partial",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.00274,
+    "percentile": 0.19929,
+    "date": "2026-11-09"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-111793"
+  },
+  {
+   "cve_id": "CVE-2026-116606",
+   "kev": {
+    "vendor_project": "Barracuda Networks",
+    "product": "Barracuda Email Security Gateway (ESG)",
+    "vulnerability_name": "Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-13",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "act",
+    "label": "Fix now",
+    "ssvc_table_result": "Act",
+    "sla_days": 3,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "yes",
+      "source": "CISA SSVC"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CISA SSVC"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.01602,
+    "percentile": 0.75995,
+    "date": "2026-11-09"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-116606"
+  },
+  {
+   "cve_id": "CVE-2026-124194",
+   "kev": {
+    "vendor_project": "Microsoft",
+    "product": "Office",
+    "vulnerability_name": "Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-24",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Track",
+    "sla_days": 14,
+    "policy_floor": "active_exploitation",
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "partial",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": null,
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-124194"
+  },
+  {
+   "cve_id": "CVE-2026-125350",
+   "kev": {
+    "vendor_project": "Google",
+    "product": "Chromium",
+    "vulnerability_name": "Google Chromium Use-After-Free Vulnerability",
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-24",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Attend",
+    "sla_days": 14,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": null,
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-125350"
+  },
+  {
+   "cve_id": "CVE-2026-20320",
+   "kev": {
+    "vendor_project": "Cisco",
+    "product": "BroadWorks",
+    "vulnerability_name": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+    "date_added": "2026-11-10",
+    "due_date": "2026-11-24",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Attend",
+    "sla_days": 14,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "yes",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "partial",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.00385,
+    "percentile": 0.32865,
+    "date": "2026-11-09"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-20320"
+  },
   {
    "cve_id": "CVE-2026-102895",
    "kev": {
@@ -47,20 +279,20 @@
      },
      "automatable": {
       "value": "yes",
-      "source": "CVSS vector"
+      "source": "CISA SSVC"
      },
      "technical_impact": {
       "value": "total",
-      "source": "CVSS vector"
+      "source": "CISA SSVC"
      },
      "mission": "medium"
     },
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00331,
-    "percentile": 0.26401,
-    "date": "2026-11-05"
+    "score": 0.00555,
+    "percentile": 0.46664,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-102895"
   },
@@ -98,9 +330,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01299,
-    "percentile": 0.70553,
-    "date": "2026-11-06"
+    "score": 0.02177,
+    "percentile": 0.82481,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-116779"
   },
@@ -138,9 +370,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01014,
-    "percentile": 0.63469,
-    "date": "2026-11-08"
+    "score": 0.16501,
+    "percentile": 0.97016,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-123158"
   },
@@ -178,9 +410,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00396,
-    "percentile": 0.34089,
-    "date": "2026-11-07"
+    "score": 0.00705,
+    "percentile": 0.53668,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-123218"
   },
@@ -218,9 +450,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00621,
-    "percentile": 0.50027,
-    "date": "2026-11-07"
+    "score": 0.00532,
+    "percentile": 0.45297,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-19868"
   },
@@ -4298,9 +4530,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01723,
-    "percentile": 0.77328,
-    "date": "2026-10-22"
+    "score": 0.18057,
+    "percentile": 0.97218,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-65400"
   },
@@ -11498,9 +11730,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.85202,
-    "percentile": 0.99718,
-    "date": "2026-10-22"
+    "score": 0.80252,
+    "percentile": 0.99623,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-8110"
   },
@@ -16099,8 +16331,8 @@
    },
    "epss": {
     "score": 0.00577,
-    "percentile": 0.46866,
-    "date": "2026-10-24"
+    "percentile": 0.47881,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-48928"
   },
@@ -32699,8 +32931,8 @@
    },
    "epss": {
     "score": 0.00635,
-    "percentile": 0.4978,
-    "date": "2026-10-22"
+    "percentile": 0.5078,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2021-25487"
   },
@@ -35178,9 +35410,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.03672,
-    "percentile": 0.89605,
-    "date": "2026-10-22"
+    "score": 0.02601,
+    "percentile": 0.85484,
+    "date": "2026-11-10"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2023-0266"
   },
