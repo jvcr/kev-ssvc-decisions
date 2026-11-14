@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-13T02:54:12.729Z",
- "count": 1779,
- "kev_catalog_version": "2026.11.10",
- "kev_date_released": "2026-11-10T19:03:29.8375Z",
+ "generated_at": "2026-11-14T02:41:33.612Z",
+ "count": 1781,
+ "kev_catalog_version": "2026.11.13",
+ "kev_date_released": "2026-11-13T20:24:18.3008Z",
  "decision_model_version": "2026-10-26.r12",
  "mission_assumed": "medium",
  "without_vektor_record": [],
@@ -24,6 +24,86 @@
   }
  },
  "vulnerabilities": [
+  {
+   "cve_id": "CVE-2026-114713",
+   "kev": {
+    "vendor_project": "UnrealIRCd",
+    "product": "UnrealIRCd",
+    "vulnerability_name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+    "date_added": "2026-11-13",
+    "due_date": "2026-11-16",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "act",
+    "label": "Fix now",
+    "ssvc_table_result": "Act",
+    "sla_days": 3,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "yes",
+      "source": "CISA SSVC"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CISA SSVC"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.00302,
+    "percentile": 0.2317,
+    "date": "2026-11-09"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-114713"
+  },
+  {
+   "cve_id": "CVE-2026-123039",
+   "kev": {
+    "vendor_project": "Check Point",
+    "product": "Multiple Products",
+    "vulnerability_name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+    "date_added": "2026-11-13",
+    "due_date": "2026-11-16",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Attend",
+    "sla_days": 14,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CISA SSVC"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CISA SSVC"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.01274,
+    "percentile": 0.70349,
+    "date": "2026-11-13"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-123039"
+  },
   {
    "cve_id": "CVE-2026-111560",
    "kev": {
@@ -58,9 +138,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.06196,
-    "percentile": 0.93596,
-    "date": "2026-11-11"
+    "score": 0.09082,
+    "percentile": 0.95373,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-111560"
   },
@@ -138,9 +218,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.08934,
-    "percentile": 0.95307,
-    "date": "2026-11-11"
+    "score": 0.10947,
+    "percentile": 0.95953,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-116606"
   },
@@ -258,9 +338,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.0082,
-    "percentile": 0.5769,
-    "date": "2026-11-11"
+    "score": 0.00976,
+    "percentile": 0.62634,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-20320"
   },
@@ -1669,7 +1749,7 @@
    "kev": {
     "vendor_project": "ISC",
     "product": "BIND",
-    "vulnerability_name": " ISC BIND Data Processing Errors Vulnerability",
+    "vulnerability_name": "ISC BIND Data Processing Errors Vulnerability",
     "date_added": "2026-10-08",
     "due_date": "2026-10-11",
     "known_ransomware_campaign_use": "Unknown"
@@ -2269,7 +2349,7 @@
    "kev": {
     "vendor_project": "WSO2",
     "product": "Multiple Products",
-    "vulnerability_name": "WSO2 Multiple Products Path Traversal Vulnerability ",
+    "vulnerability_name": "WSO2 Multiple Products Path Traversal Vulnerability",
     "date_added": "2026-09-24",
     "due_date": "2026-09-27",
     "known_ransomware_campaign_use": "Unknown"
@@ -2308,8 +2388,8 @@
    "cve_id": "CVE-2026-71362",
    "kev": {
     "vendor_project": "Adobe",
-    "product": "Commerce and Magento ",
-    "vulnerability_name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+    "product": "Commerce and Magento",
+    "vulnerability_name": "Adobe Commerce and Magento Incorrect Authorization Vulnerability",
     "date_added": "2026-09-24",
     "due_date": "2026-09-27",
     "known_ransomware_campaign_use": "Unknown"
@@ -2938,9 +3018,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00924,
-    "percentile": 0.60052,
-    "date": "2026-10-22"
+    "score": 0.01173,
+    "percentile": 0.67961,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-84869"
   },
@@ -4588,7 +4668,7 @@
    "cve_id": "CVE-2026-20349",
    "kev": {
     "vendor_project": "Cisco",
-    "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
+    "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)",
     "vulnerability_name": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
     "date_added": "2026-08-11",
     "due_date": "2026-08-14",
@@ -4628,7 +4708,7 @@
    "cve_id": "CVE-2026-68820",
    "kev": {
     "vendor_project": "Microsoft",
-    "product": "Windows Ancillary Function Driver for WinSock ",
+    "product": "Windows Ancillary Function Driver for WinSock",
     "vulnerability_name": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
     "date_added": "2026-08-11",
     "due_date": "2026-08-25",
@@ -5109,7 +5189,7 @@
    "kev": {
     "vendor_project": "Microsoft",
     "product": "SharePoint",
-    "vulnerability_name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability ",
+    "vulnerability_name": "Microsoft SharePoint Deserialization of Untrusted Data Vulnerability",
     "date_added": "2026-07-22",
     "due_date": "2026-07-25",
     "known_ransomware_campaign_use": "Unknown"
@@ -5589,7 +5669,7 @@
    "kev": {
     "vendor_project": "Microsoft",
     "product": "Active Directory Federation Services",
-    "vulnerability_name": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability ",
+    "vulnerability_name": "Microsoft Active Directory Federation Services Insufficient Granularity of Access Control Vulnerability",
     "date_added": "2026-07-14",
     "due_date": "2026-07-28",
     "known_ransomware_campaign_use": "Unknown"
@@ -6308,7 +6388,7 @@
    "cve_id": "CVE-2026-48907",
    "kev": {
     "vendor_project": "Widget Factory",
-    "product": "Joomla Content Editor ",
+    "product": "Joomla Content Editor",
     "vulnerability_name": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
     "date_added": "2026-06-16",
     "due_date": "2026-06-19",
@@ -6428,7 +6508,7 @@
    "cve_id": "CVE-2026-35273",
    "kev": {
     "vendor_project": "Oracle",
-    "product": " PeopleSoft Enterprise PeopleTools",
+    "product": "PeopleSoft Enterprise PeopleTools",
     "vulnerability_name": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
     "date_added": "2026-06-12",
     "due_date": "2026-06-15",
@@ -9098,9 +9178,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.59727,
-    "percentile": 0.99122,
-    "date": "2026-10-25"
+    "score": 0.61515,
+    "percentile": 0.99181,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-33634"
   },
@@ -9708,7 +9788,7 @@
    "cve_id": "CVE-2026-1603",
    "kev": {
     "vendor_project": "Ivanti",
-    "product": " Endpoint Manager (EPM)",
+    "product": "Endpoint Manager (EPM)",
     "vulnerability_name": "Ivanti Endpoint Manager (EPM) Authentication Bypass Vulnerability",
     "date_added": "2026-03-09",
     "due_date": "2026-03-23",
@@ -10309,7 +10389,7 @@
    "kev": {
     "vendor_project": "Microsoft",
     "product": "Windows",
-    "vulnerability_name": " Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability",
+    "vulnerability_name": "Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability",
     "date_added": "2026-02-17",
     "due_date": "2026-03-10",
     "known_ransomware_campaign_use": "Unknown"
@@ -10989,7 +11069,7 @@
    "kev": {
     "vendor_project": "Sangoma",
     "product": "FreePBX",
-    "vulnerability_name": " Sangoma FreePBX Improper Authentication Vulnerability",
+    "vulnerability_name": "Sangoma FreePBX Improper Authentication Vulnerability",
     "date_added": "2026-02-03",
     "due_date": "2026-02-24",
     "known_ransomware_campaign_use": "Unknown"
@@ -11108,7 +11188,7 @@
    "cve_id": "CVE-2025-64328",
    "kev": {
     "vendor_project": "Sangoma",
-    "product": "FreePBX ",
+    "product": "FreePBX",
     "vulnerability_name": "Sangoma FreePBX OS Command Injection Vulnerability",
     "date_added": "2026-02-03",
     "due_date": "2026-02-24",
@@ -11588,7 +11668,7 @@
    "cve_id": "CVE-2025-68645",
    "kev": {
     "vendor_project": "Synacor",
-    "product": " Zimbra Collaboration Suite (ZCS)",
+    "product": "Zimbra Collaboration Suite (ZCS)",
     "vulnerability_name": "Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability",
     "date_added": "2026-01-22",
     "due_date": "2026-02-12",
@@ -15829,7 +15909,7 @@
    "kev": {
     "vendor_project": "CrushFTP",
     "product": "CrushFTP",
-    "vulnerability_name": " CrushFTP Unprotected Alternate Channel Vulnerability",
+    "vulnerability_name": "CrushFTP Unprotected Alternate Channel Vulnerability",
     "date_added": "2025-07-22",
     "due_date": "2025-08-12",
     "known_ransomware_campaign_use": "Unknown"
@@ -16429,7 +16509,7 @@
    "kev": {
     "vendor_project": "D-Link",
     "product": "DIR-859 Router",
-    "vulnerability_name": " D-Link DIR-859 Router Path Traversal Vulnerability",
+    "vulnerability_name": "D-Link DIR-859 Router Path Traversal Vulnerability",
     "date_added": "2025-06-25",
     "due_date": "2025-07-16",
     "known_ransomware_campaign_use": "Unknown"
@@ -16669,7 +16749,7 @@
    "kev": {
     "vendor_project": "Microsoft",
     "product": "Windows",
-    "vulnerability_name": " Microsoft Windows External Control of File Name or Path Vulnerability",
+    "vulnerability_name": "Microsoft Windows External Control of File Name or Path Vulnerability",
     "date_added": "2025-06-10",
     "due_date": "2025-07-01",
     "known_ransomware_campaign_use": "Unknown"
@@ -17178,9 +17258,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.24066,
-    "percentile": 0.97845,
-    "date": "2026-10-22"
+    "score": 0.22377,
+    "percentile": 0.97729,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-4632"
   },
@@ -19589,7 +19669,7 @@
    "kev": {
     "vendor_project": "Advantive",
     "product": "VeraCore",
-    "vulnerability_name": " Advantive VeraCore SQL Injection Vulnerability",
+    "vulnerability_name": "Advantive VeraCore SQL Injection Vulnerability",
     "date_added": "2025-03-10",
     "due_date": "2025-03-31",
     "known_ransomware_campaign_use": "Unknown"
@@ -20658,9 +20738,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.31085,
-    "percentile": 0.98269,
-    "date": "2026-10-22"
+    "score": 0.3522,
+    "percentile": 0.98467,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-0994"
   },
@@ -21669,7 +21749,7 @@
    "kev": {
     "vendor_project": "Acclaim Systems",
     "product": "USAHERDS",
-    "vulnerability_name": "Acclaim Systems USAHERDS Use of Hard-Coded Credentials Vulnerability ",
+    "vulnerability_name": "Acclaim Systems USAHERDS Use of Hard-Coded Credentials Vulnerability",
     "date_added": "2024-12-23",
     "due_date": "2025-01-13",
     "known_ransomware_campaign_use": "Unknown"
@@ -21708,8 +21788,8 @@
    "cve_id": "CVE-2024-12356",
    "kev": {
     "vendor_project": "BeyondTrust",
-    "product": "Privileged Remote Access (PRA) and Remote Support (RS) ",
-    "vulnerability_name": "BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) Command Injection Vulnerability ",
+    "product": "Privileged Remote Access (PRA) and Remote Support (RS)",
+    "vulnerability_name": "BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) Command Injection Vulnerability",
     "date_added": "2024-12-19",
     "due_date": "2024-12-27",
     "known_ransomware_campaign_use": "Unknown"
@@ -21749,7 +21829,7 @@
    "kev": {
     "vendor_project": "NUUO",
     "product": "NVRmini Devices",
-    "vulnerability_name": "NUUO NVRmini Devices OS Command Injection Vulnerability ",
+    "vulnerability_name": "NUUO NVRmini Devices OS Command Injection Vulnerability",
     "date_added": "2024-12-18",
     "due_date": "2025-01-08",
     "known_ransomware_campaign_use": "Unknown"
@@ -21829,7 +21909,7 @@
    "kev": {
     "vendor_project": "Reolink",
     "product": "RLC-410W IP Camera",
-    "vulnerability_name": "Reolink RLC-410W IP Camera OS Command Injection Vulnerability ",
+    "vulnerability_name": "Reolink RLC-410W IP Camera OS Command Injection Vulnerability",
     "date_added": "2024-12-18",
     "due_date": "2025-01-08",
     "known_ransomware_campaign_use": "Unknown"
@@ -21869,7 +21949,7 @@
    "kev": {
     "vendor_project": "NUUO",
     "product": "NVRmini2 Devices",
-    "vulnerability_name": "NUUO NVRmini2 Devices Missing Authentication Vulnerability ",
+    "vulnerability_name": "NUUO NVRmini2 Devices Missing Authentication Vulnerability",
     "date_added": "2024-12-18",
     "due_date": "2025-01-08",
     "known_ransomware_campaign_use": "Unknown"
@@ -21989,7 +22069,7 @@
    "kev": {
     "vendor_project": "Microsoft",
     "product": "Windows",
-    "vulnerability_name": "Microsoft Windows Kernel-Mode Driver Untrusted Pointer Dereference Vulnerability ",
+    "vulnerability_name": "Microsoft Windows Kernel-Mode Driver Untrusted Pointer Dereference Vulnerability",
     "date_added": "2024-12-16",
     "due_date": "2025-01-06",
     "known_ransomware_campaign_use": "Unknown"
@@ -23428,7 +23508,7 @@
    "cve_id": "CVE-2024-30088",
    "kev": {
     "vendor_project": "Microsoft",
-    "product": "Windows ",
+    "product": "Windows",
     "vulnerability_name": "Microsoft Windows Kernel TOCTOU Race Condition Vulnerability",
     "date_added": "2024-10-15",
     "due_date": "2024-11-05",
@@ -23628,7 +23708,7 @@
    "cve_id": "CVE-2024-43047",
    "kev": {
     "vendor_project": "Qualcomm",
-    "product": "Multiple Chipsets ",
+    "product": "Multiple Chipsets",
     "vulnerability_name": "Qualcomm Multiple Chipsets Use-After-Free Vulnerability",
     "date_added": "2024-10-08",
     "due_date": "2024-10-29",
@@ -24629,7 +24709,7 @@
    "kev": {
     "vendor_project": "Linux",
     "product": "Kernel",
-    "vulnerability_name": "Linux Kernel PIE Stack Buffer Corruption Vulnerability ",
+    "vulnerability_name": "Linux Kernel PIE Stack Buffer Corruption Vulnerability",
     "date_added": "2024-09-09",
     "due_date": "2024-09-30",
     "known_ransomware_campaign_use": "Known"
@@ -24709,7 +24789,7 @@
    "kev": {
     "vendor_project": "DrayTek",
     "product": "VigorConnect",
-    "vulnerability_name": "Draytek VigorConnect Path Traversal Vulnerability ",
+    "vulnerability_name": "Draytek VigorConnect Path Traversal Vulnerability",
     "date_added": "2024-09-03",
     "due_date": "2024-09-24",
     "known_ransomware_campaign_use": "Unknown"
@@ -24749,7 +24829,7 @@
    "kev": {
     "vendor_project": "DrayTek",
     "product": "VigorConnect",
-    "vulnerability_name": "Draytek VigorConnect Path Traversal Vulnerability ",
+    "vulnerability_name": "Draytek VigorConnect Path Traversal Vulnerability",
     "date_added": "2024-09-03",
     "due_date": "2024-09-24",
     "known_ransomware_campaign_use": "Unknown"
@@ -25349,7 +25429,7 @@
    "kev": {
     "vendor_project": "Microsoft",
     "product": "Project",
-    "vulnerability_name": "Microsoft Project Remote Code Execution Vulnerability ",
+    "vulnerability_name": "Microsoft Project Remote Code Execution Vulnerability",
     "date_added": "2024-08-13",
     "due_date": "2024-09-03",
     "known_ransomware_campaign_use": "Unknown"
@@ -25829,7 +25909,7 @@
    "kev": {
     "vendor_project": "VMware",
     "product": "vCenter Server",
-    "vulnerability_name": "VMware vCenter Server Incorrect Default File Permissions Vulnerability ",
+    "vulnerability_name": "VMware vCenter Server Incorrect Default File Permissions Vulnerability",
     "date_added": "2024-07-17",
     "due_date": "2024-08-07",
     "known_ransomware_campaign_use": "Unknown"
@@ -25869,7 +25949,7 @@
    "kev": {
     "vendor_project": "SolarWinds",
     "product": "Serv-U",
-    "vulnerability_name": "SolarWinds Serv-U Path Traversal Vulnerability ",
+    "vulnerability_name": "SolarWinds Serv-U Path Traversal Vulnerability",
     "date_added": "2024-07-17",
     "due_date": "2024-08-07",
     "known_ransomware_campaign_use": "Unknown"
@@ -26028,7 +26108,7 @@
    "cve_id": "CVE-2024-38080",
    "kev": {
     "vendor_project": "Microsoft",
-    "product": "Windows ",
+    "product": "Windows",
     "vulnerability_name": "Microsoft Windows Hyper-V Privilege Escalation Vulnerability",
     "date_added": "2024-07-09",
     "due_date": "2024-07-30",
@@ -26459,8 +26539,8 @@
    },
    "epss": {
     "score": 0.00764,
-    "percentile": 0.54927,
-    "date": "2026-10-22"
+    "percentile": 0.55964,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2024-4610"
   },
@@ -26588,7 +26668,7 @@
    "cve_id": "CVE-2024-4978",
    "kev": {
     "vendor_project": "Justice AV Solutions",
-    "product": "Viewer ",
+    "product": "Viewer",
     "vulnerability_name": "Justice AV Solutions (JAVS) Viewer Installer Embedded Malicious Code Vulnerability",
     "date_added": "2024-05-29",
     "due_date": "2024-06-19",
@@ -26949,7 +27029,7 @@
    "kev": {
     "vendor_project": "Microsoft",
     "product": "DWM Core Library",
-    "vulnerability_name": " Microsoft DWM Core Library Privilege Escalation Vulnerability",
+    "vulnerability_name": "Microsoft DWM Core Library Privilege Escalation Vulnerability",
     "date_added": "2024-05-14",
     "due_date": "2024-06-04",
     "known_ransomware_campaign_use": "Known"
@@ -27229,7 +27309,7 @@
    "kev": {
     "vendor_project": "Microsoft",
     "product": "Windows",
-    "vulnerability_name": "Microsoft Windows Print Spooler Privilege Escalation Vulnerability ",
+    "vulnerability_name": "Microsoft Windows Print Spooler Privilege Escalation Vulnerability",
     "date_added": "2024-04-23",
     "due_date": "2024-05-14",
     "known_ransomware_campaign_use": "Unknown"
@@ -27549,7 +27629,7 @@
    "kev": {
     "vendor_project": "Ivanti",
     "product": "Endpoint Manager Cloud Service Appliance (EPM CSA)",
-    "vulnerability_name": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability ",
+    "vulnerability_name": "Ivanti Endpoint Manager Cloud Service Appliance (EPM CSA) Code Injection Vulnerability",
     "date_added": "2024-03-25",
     "due_date": "2024-04-15",
     "known_ransomware_campaign_use": "Known"
@@ -27789,7 +27869,7 @@
    "kev": {
     "vendor_project": "Android",
     "product": "Pixel",
-    "vulnerability_name": "Android Pixel Information Disclosure Vulnerability ",
+    "vulnerability_name": "Android Pixel Information Disclosure Vulnerability",
     "date_added": "2024-03-05",
     "due_date": "2024-03-26",
     "known_ransomware_campaign_use": "Unknown"
@@ -29379,8 +29459,8 @@
    },
    "epss": {
     "score": 0.00788,
-    "percentile": 0.55724,
-    "date": "2026-10-22"
+    "percentile": 0.56751,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2023-33106"
   },
@@ -30978,9 +31058,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.74202,
-    "percentile": 0.99488,
-    "date": "2026-10-22"
+    "score": 0.708,
+    "percentile": 0.99408,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2018-14667"
   },
@@ -32779,8 +32859,8 @@
    },
    "epss": {
     "score": 0.00802,
-    "percentile": 0.56181,
-    "date": "2026-10-22"
+    "percentile": 0.57185,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2021-25371"
   },
@@ -32819,8 +32899,8 @@
    },
    "epss": {
     "score": 0.00804,
-    "percentile": 0.56285,
-    "date": "2026-10-22"
+    "percentile": 0.5729,
+    "date": "2026-11-13"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2021-25372"
   },

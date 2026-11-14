@@ -10,23 +10,25 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-13. KEV catalog 2026.11.10, 1779 entries.
+Last build: 2026-11-14. KEV catalog 2026.11.13, 1781 entries.
 
 | Decision | Entries |
 |---|---|
-| Fix now (`act`) | 698 |
-| Fix this sprint (`attend`) | 1081 |
+| Fix now (`act`) | 699 |
+| Fix this sprint (`attend`) | 1082 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2026-111560](https://vektor.jvcr.se/cve/CVE-2026-111560) | Barracuda Networks | Multiple Products | 2026-11-10 | Fix this sprint | 0.0620 |
+| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0030 |
+| [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0127 |
+| [CVE-2026-111560](https://vektor.jvcr.se/cve/CVE-2026-111560) | Barracuda Networks | Multiple Products | 2026-11-10 | Fix this sprint | 0.0908 |
 | [CVE-2026-111793](https://vektor.jvcr.se/cve/CVE-2026-111793) | Openwave Messaging Limited | Webtop Media Transcoder | 2026-11-10 | Fix this sprint | 0.0064 |
-| [CVE-2026-116606](https://vektor.jvcr.se/cve/CVE-2026-116606) | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 2026-11-10 | Fix now | 0.0893 |
+| [CVE-2026-116606](https://vektor.jvcr.se/cve/CVE-2026-116606) | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 2026-11-10 | Fix now | 0.1095 |
 | [CVE-2026-124194](https://vektor.jvcr.se/cve/CVE-2026-124194) | Microsoft | Office | 2026-11-10 | Fix this sprint | 0.0162 |
 | [CVE-2026-125350](https://vektor.jvcr.se/cve/CVE-2026-125350) | Google | Chromium | 2026-11-10 | Fix this sprint | 0.0096 |
-| [CVE-2026-20320](https://vektor.jvcr.se/cve/CVE-2026-20320) | Cisco | BroadWorks | 2026-11-10 | Fix this sprint | 0.0082 |
+| [CVE-2026-20320](https://vektor.jvcr.se/cve/CVE-2026-20320) | Cisco | BroadWorks | 2026-11-10 | Fix this sprint | 0.0098 |
 | [CVE-2026-102895](https://vektor.jvcr.se/cve/CVE-2026-102895) | GPUStack | GPUStack | 2026-11-09 | Fix now | 0.0052 |
 | [CVE-2026-116779](https://vektor.jvcr.se/cve/CVE-2026-116779) | SignalWire | FreeSwitch | 2026-11-09 | Fix now | 0.0247 |
 | [CVE-2026-123158](https://vektor.jvcr.se/cve/CVE-2026-123158) | OpenBSD | OpenSSH | 2026-11-09 | Fix this sprint | 0.1890 |
@@ -34,8 +36,6 @@ Latest KEV additions:
 | [CVE-2026-19868](https://vektor.jvcr.se/cve/CVE-2026-19868) | SonicWall | SonicOS SSLVPN | 2026-11-06 | Fix this sprint | 0.0053 |
 | [CVE-2024-27834](https://vektor.jvcr.se/cve/CVE-2024-27834) | Apple | Multiple Products | 2026-11-04 | Fix this sprint | 0.0150 |
 | [CVE-2026-119977](https://vektor.jvcr.se/cve/CVE-2026-119977) | WordPress | WordPress Core | 2026-11-03 | Fix now | 0.0120 |
-| [CVE-2026-111357](https://vektor.jvcr.se/cve/CVE-2026-111357) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0053 |
-| [CVE-2026-118527](https://vektor.jvcr.se/cve/CVE-2026-118527) | Ivanti | Connect Secure | 2026-10-30 | Fix this sprint | 0.0082 |
 <!-- stats:end -->
 
 ## Fields
