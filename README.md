@@ -10,7 +10,7 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-14. KEV catalog 2026.11.13, 1781 entries.
+Last build: 2026-11-15. KEV catalog 2026.11.13, 1781 entries.
 
 | Decision | Entries |
 |---|---|
@@ -21,8 +21,8 @@ Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0030 |
-| [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0127 |
+| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0051 |
+| [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0219 |
 | [CVE-2026-111560](https://vektor.jvcr.se/cve/CVE-2026-111560) | Barracuda Networks | Multiple Products | 2026-11-10 | Fix this sprint | 0.0908 |
 | [CVE-2026-111793](https://vektor.jvcr.se/cve/CVE-2026-111793) | Openwave Messaging Limited | Webtop Media Transcoder | 2026-11-10 | Fix this sprint | 0.0064 |
 | [CVE-2026-116606](https://vektor.jvcr.se/cve/CVE-2026-116606) | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 2026-11-10 | Fix now | 0.1095 |
