@@ -10,19 +10,20 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-17. KEV catalog 2026.11.13, 1781 entries.
+Last build: 2026-11-18. KEV catalog 2026.11.17, 1782 entries.
 
 | Decision | Entries |
 |---|---|
 | Fix now (`act`) | 699 |
-| Fix this sprint (`attend`) | 1082 |
+| Fix this sprint (`attend`) | 1083 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0051 |
-| [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0219 |
+| [CVE-2026-115731](https://vektor.jvcr.se/cve/CVE-2026-115731) | Perforce | Puppet Enterprise | 2026-11-17 | Fix this sprint | 0.0037 |
+| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0047 |
+| [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0194 |
 | [CVE-2026-111560](https://vektor.jvcr.se/cve/CVE-2026-111560) | Barracuda Networks | Multiple Products | 2026-11-10 | Fix this sprint | 0.0908 |
 | [CVE-2026-111793](https://vektor.jvcr.se/cve/CVE-2026-111793) | Openwave Messaging Limited | Webtop Media Transcoder | 2026-11-10 | Fix this sprint | 0.0064 |
 | [CVE-2026-116606](https://vektor.jvcr.se/cve/CVE-2026-116606) | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 2026-11-10 | Fix now | 0.1095 |
@@ -35,7 +36,6 @@ Latest KEV additions:
 | [CVE-2026-123218](https://vektor.jvcr.se/cve/CVE-2026-123218) | IBM | Aspera Faspex | 2026-11-09 | Fix now | 0.0053 |
 | [CVE-2026-19868](https://vektor.jvcr.se/cve/CVE-2026-19868) | SonicWall | SonicOS SSLVPN | 2026-11-06 | Fix this sprint | 0.0053 |
 | [CVE-2024-27834](https://vektor.jvcr.se/cve/CVE-2024-27834) | Apple | Multiple Products | 2026-11-04 | Fix this sprint | 0.0150 |
-| [CVE-2026-119977](https://vektor.jvcr.se/cve/CVE-2026-119977) | WordPress | WordPress Core | 2026-11-03 | Fix now | 0.0120 |
 <!-- stats:end -->
 
 ## Fields

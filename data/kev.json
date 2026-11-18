@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-17T04:46:52.969Z",
- "count": 1781,
- "kev_catalog_version": "2026.11.13",
- "kev_date_released": "2026-11-13T20:24:18.3008Z",
+ "generated_at": "2026-11-18T03:51:18.124Z",
+ "count": 1782,
+ "kev_catalog_version": "2026.11.17",
+ "kev_date_released": "2026-11-17T17:53:15.5664Z",
  "decision_model_version": "2026-10-26.r12",
  "mission_assumed": "medium",
  "without_vektor_record": [],
@@ -24,6 +24,46 @@
   }
  },
  "vulnerabilities": [
+  {
+   "cve_id": "CVE-2026-115731",
+   "kev": {
+    "vendor_project": "Perforce",
+    "product": "Puppet Enterprise",
+    "vulnerability_name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+    "date_added": "2026-11-17",
+    "due_date": "2026-12-01",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Attend",
+    "sla_days": 14,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CVSS vector"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CVSS vector"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.00366,
+    "percentile": 0.30574,
+    "date": "2026-11-04"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-115731"
+  },
   {
    "cve_id": "CVE-2026-114713",
    "kev": {
@@ -58,9 +98,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00508,
-    "percentile": 0.43896,
-    "date": "2026-11-14"
+    "score": 0.00467,
+    "percentile": 0.4101,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-114713"
   },
@@ -98,9 +138,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.02191,
-    "percentile": 0.82739,
-    "date": "2026-11-14"
+    "score": 0.01938,
+    "percentile": 0.80486,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-123039"
   },
@@ -618,9 +658,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01199,
-    "percentile": 0.68385,
-    "date": "2026-11-09"
+    "score": 0.01586,
+    "percentile": 0.76024,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-119977"
   },
@@ -2378,9 +2418,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.2239,
-    "percentile": 0.97677,
-    "date": "2026-10-25"
+    "score": 0.7884,
+    "percentile": 0.99598,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-5430"
   },
@@ -3619,8 +3659,8 @@
    },
    "epss": {
     "score": 0.00836,
-    "percentile": 0.57292,
-    "date": "2026-10-22"
+    "percentile": 0.58316,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-59822"
   },
@@ -3858,9 +3898,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.63047,
-    "percentile": 0.992,
-    "date": "2026-10-30"
+    "score": 0.60891,
+    "percentile": 0.99169,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-82078"
   },
@@ -6067,7 +6107,7 @@
   {
    "cve_id": "CVE-2026-48558",
    "kev": {
-    "vendor_project": "SimpleHelp ",
+    "vendor_project": "SimpleHelp",
     "product": "SimpleHelp",
     "vulnerability_name": "SimpleHelp Authentication Bypass Vulnerability",
     "date_added": "2026-06-29",
@@ -6858,9 +6898,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.26157,
-    "percentile": 0.97979,
-    "date": "2026-10-25"
+    "score": 0.8234,
+    "percentile": 0.99668,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-45247"
   },
@@ -6938,9 +6978,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01947,
-    "percentile": 0.80056,
-    "date": "2026-10-25"
+    "score": 0.01995,
+    "percentile": 0.81063,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-48595"
   },
@@ -7947,7 +7987,7 @@
   {
    "cve_id": "CVE-2024-57726",
    "kev": {
-    "vendor_project": "SimpleHelp ",
+    "vendor_project": "SimpleHelp",
     "product": "SimpleHelp",
     "vulnerability_name": "SimpleHelp Missing Authorization Vulnerability",
     "date_added": "2026-04-24",
@@ -7987,7 +8027,7 @@
   {
    "cve_id": "CVE-2024-57728",
    "kev": {
-    "vendor_project": "SimpleHelp ",
+    "vendor_project": "SimpleHelp",
     "product": "SimpleHelp",
     "vulnerability_name": "SimpleHelp Path Traversal Vulnerability",
     "date_added": "2026-04-24",
@@ -12058,9 +12098,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.32392,
-    "percentile": 0.98334,
-    "date": "2026-10-22"
+    "score": 0.30395,
+    "percentile": 0.98261,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-20393"
   },
@@ -12138,9 +12178,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01197,
-    "percentile": 0.67866,
-    "date": "2026-10-22"
+    "score": 0.01211,
+    "percentile": 0.69007,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-59374"
   },
@@ -12258,9 +12298,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.2565,
-    "percentile": 0.97946,
-    "date": "2026-10-25"
+    "score": 0.17614,
+    "percentile": 0.97199,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-43529"
   },
@@ -12507,7 +12547,7 @@
   {
    "cve_id": "CVE-2025-66644",
    "kev": {
-    "vendor_project": "Array Networks ",
+    "vendor_project": "Array Networks",
     "product": "ArrayOS AG",
     "vulnerability_name": "Array Networks ArrayOS AG OS Command Injection Vulnerability",
     "date_added": "2025-12-08",
@@ -13578,9 +13618,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.82699,
-    "percentile": 0.99668,
-    "date": "2026-10-22"
+    "score": 0.83933,
+    "percentile": 0.99698,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-33073"
   },
@@ -16738,9 +16778,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.9384,
-    "percentile": 0.99846,
-    "date": "2026-10-22"
+    "score": 0.95208,
+    "percentile": 0.99866,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-24016"
   },
@@ -20427,7 +20467,7 @@
   {
    "cve_id": "CVE-2024-57727",
    "kev": {
-    "vendor_project": "SimpleHelp ",
+    "vendor_project": "SimpleHelp",
     "product": "SimpleHelp",
     "vulnerability_name": "SimpleHelp Path Traversal Vulnerability",
     "date_added": "2025-02-13",
@@ -22347,7 +22387,7 @@
   {
    "cve_id": "CVE-2023-28461",
    "kev": {
-    "vendor_project": "Array Networks ",
+    "vendor_project": "Array Networks",
     "product": "AG/vxAG ArrayOS",
     "vulnerability_name": "Array Networks AG and vxAG ArrayOS Missing Authentication for Critical Function Vulnerability",
     "date_added": "2024-11-25",
@@ -31098,9 +31138,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.1338,
-    "percentile": 0.96415,
-    "date": "2026-10-22"
+    "score": 0.19803,
+    "percentile": 0.97457,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2023-41991"
   },
@@ -35298,9 +35338,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01062,
-    "percentile": 0.64312,
-    "date": "2026-10-22"
+    "score": 0.01595,
+    "percentile": 0.76148,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2022-22706"
   },
@@ -44659,8 +44699,8 @@
    },
    "epss": {
     "score": 0.00867,
-    "percentile": 0.5832,
-    "date": "2026-10-22"
+    "percentile": 0.59326,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2021-0920"
   },
@@ -47458,9 +47498,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.69021,
-    "percentile": 0.99353,
-    "date": "2026-10-22"
+    "score": 0.70168,
+    "percentile": 0.99391,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2013-1690"
   },
@@ -71258,9 +71298,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.74426,
-    "percentile": 0.99493,
-    "date": "2026-10-22"
+    "score": 0.76231,
+    "percentile": 0.99543,
+    "date": "2026-11-17"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2021-42258"
   }
