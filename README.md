@@ -10,18 +10,22 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-18. KEV catalog 2026.11.17, 1782 entries.
+Last build: 2026-11-19. KEV catalog 2026.11.18, 1786 entries.
 
 | Decision | Entries |
 |---|---|
-| Fix now (`act`) | 699 |
-| Fix this sprint (`attend`) | 1083 |
+| Fix now (`act`) | 702 |
+| Fix this sprint (`attend`) | 1084 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2026-115731](https://vektor.jvcr.se/cve/CVE-2026-115731) | Perforce | Puppet Enterprise | 2026-11-17 | Fix this sprint | 0.0037 |
+| [CVE-2024-10441](https://vektor.jvcr.se/cve/CVE-2024-10441) | Synology | DiskStation Manager (DSM) | 2026-11-18 | Fix now | 0.0125 |
+| [CVE-2026-40217](https://vektor.jvcr.se/cve/CVE-2026-40217) | BerriAI | LiteLLM | 2026-11-18 | Fix this sprint | 0.1702 |
+| [CVE-2026-90436](https://vektor.jvcr.se/cve/CVE-2026-90436) | Apache | Axis | 2026-11-18 | Fix now | 0.0113 |
+| [CVE-2026-90817](https://vektor.jvcr.se/cve/CVE-2026-90817) | Vanderbilt University | Research Electronic Data Capture (REDCap) | 2026-11-18 | Fix now | 0.0375 |
+| [CVE-2026-115731](https://vektor.jvcr.se/cve/CVE-2026-115731) | Perforce | Puppet Enterprise | 2026-11-17 | Fix this sprint | 0.0069 |
 | [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0047 |
 | [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0194 |
 | [CVE-2026-111560](https://vektor.jvcr.se/cve/CVE-2026-111560) | Barracuda Networks | Multiple Products | 2026-11-10 | Fix this sprint | 0.0908 |
@@ -30,12 +34,8 @@ Latest KEV additions:
 | [CVE-2026-124194](https://vektor.jvcr.se/cve/CVE-2026-124194) | Microsoft | Office | 2026-11-10 | Fix this sprint | 0.0162 |
 | [CVE-2026-125350](https://vektor.jvcr.se/cve/CVE-2026-125350) | Google | Chromium | 2026-11-10 | Fix this sprint | 0.0096 |
 | [CVE-2026-20320](https://vektor.jvcr.se/cve/CVE-2026-20320) | Cisco | BroadWorks | 2026-11-10 | Fix this sprint | 0.0098 |
-| [CVE-2026-102895](https://vektor.jvcr.se/cve/CVE-2026-102895) | GPUStack | GPUStack | 2026-11-09 | Fix now | 0.0052 |
-| [CVE-2026-116779](https://vektor.jvcr.se/cve/CVE-2026-116779) | SignalWire | FreeSwitch | 2026-11-09 | Fix now | 0.0247 |
-| [CVE-2026-123158](https://vektor.jvcr.se/cve/CVE-2026-123158) | OpenBSD | OpenSSH | 2026-11-09 | Fix this sprint | 0.1890 |
-| [CVE-2026-123218](https://vektor.jvcr.se/cve/CVE-2026-123218) | IBM | Aspera Faspex | 2026-11-09 | Fix now | 0.0053 |
-| [CVE-2026-19868](https://vektor.jvcr.se/cve/CVE-2026-19868) | SonicWall | SonicOS SSLVPN | 2026-11-06 | Fix this sprint | 0.0053 |
-| [CVE-2024-27834](https://vektor.jvcr.se/cve/CVE-2024-27834) | Apple | Multiple Products | 2026-11-04 | Fix this sprint | 0.0150 |
+| [CVE-2026-102895](https://vektor.jvcr.se/cve/CVE-2026-102895) | GPUStack | GPUStack | 2026-11-09 | Fix now | 0.0573 |
+| [CVE-2026-116779](https://vektor.jvcr.se/cve/CVE-2026-116779) | SignalWire | FreeSwitch | 2026-11-09 | Fix now | 0.2208 |
 <!-- stats:end -->
 
 ## Fields
