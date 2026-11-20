@@ -10,7 +10,7 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-19. KEV catalog 2026.11.18, 1786 entries.
+Last build: 2026-11-20. KEV catalog 2026.11.18, 1786 entries.
 
 | Decision | Entries |
 |---|---|
@@ -21,10 +21,10 @@ Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2024-10441](https://vektor.jvcr.se/cve/CVE-2024-10441) | Synology | DiskStation Manager (DSM) | 2026-11-18 | Fix now | 0.0125 |
-| [CVE-2026-40217](https://vektor.jvcr.se/cve/CVE-2026-40217) | BerriAI | LiteLLM | 2026-11-18 | Fix this sprint | 0.1702 |
-| [CVE-2026-90436](https://vektor.jvcr.se/cve/CVE-2026-90436) | Apache | Axis | 2026-11-18 | Fix now | 0.0113 |
-| [CVE-2026-90817](https://vektor.jvcr.se/cve/CVE-2026-90817) | Vanderbilt University | Research Electronic Data Capture (REDCap) | 2026-11-18 | Fix now | 0.0375 |
+| [CVE-2024-10441](https://vektor.jvcr.se/cve/CVE-2024-10441) | Synology | DiskStation Manager (DSM) | 2026-11-18 | Fix now | 0.0215 |
+| [CVE-2026-40217](https://vektor.jvcr.se/cve/CVE-2026-40217) | BerriAI | LiteLLM | 2026-11-18 | Fix this sprint | 0.6191 |
+| [CVE-2026-90436](https://vektor.jvcr.se/cve/CVE-2026-90436) | Apache | Axis | 2026-11-18 | Fix now | 0.0177 |
+| [CVE-2026-90817](https://vektor.jvcr.se/cve/CVE-2026-90817) | Vanderbilt University | Research Electronic Data Capture (REDCap) | 2026-11-18 | Fix now | 0.2519 |
 | [CVE-2026-115731](https://vektor.jvcr.se/cve/CVE-2026-115731) | Perforce | Puppet Enterprise | 2026-11-17 | Fix this sprint | 0.0069 |
 | [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0047 |
 | [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0194 |
