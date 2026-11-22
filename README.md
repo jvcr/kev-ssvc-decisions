@@ -10,7 +10,7 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-21. KEV catalog 2026.11.20, 1790 entries.
+Last build: 2026-11-22. KEV catalog 2026.11.20, 1790 entries.
 
 | Decision | Entries |
 |---|---|
@@ -21,21 +21,21 @@ Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2025-42884](https://vektor.jvcr.se/cve/CVE-2025-42884) | SAP | NetWeaver | 2026-11-20 | Fix this sprint | 0.0028 |
-| [CVE-2026-123890](https://vektor.jvcr.se/cve/CVE-2026-123890) | Broadcom | VMware vCenter | 2026-11-20 | Fix now | 0.0084 |
-| [CVE-2026-129448](https://vektor.jvcr.se/cve/CVE-2026-129448) | Apache | Roller | 2026-11-20 | Fix now | 0.0119 |
-| [CVE-2026-76466](https://vektor.jvcr.se/cve/CVE-2026-76466) | Cisco | Expressway Series | 2026-11-20 | Fix now | 0.0042 |
-| [CVE-2024-10441](https://vektor.jvcr.se/cve/CVE-2024-10441) | Synology | DiskStation Manager (DSM) | 2026-11-18 | Fix now | 0.0242 |
-| [CVE-2026-40217](https://vektor.jvcr.se/cve/CVE-2026-40217) | BerriAI | LiteLLM | 2026-11-18 | Fix this sprint | 0.6890 |
-| [CVE-2026-90436](https://vektor.jvcr.se/cve/CVE-2026-90436) | Apache | Axis | 2026-11-18 | Fix now | 0.0177 |
-| [CVE-2026-90817](https://vektor.jvcr.se/cve/CVE-2026-90817) | Vanderbilt University | Research Electronic Data Capture (REDCap) | 2026-11-18 | Fix now | 0.2519 |
-| [CVE-2026-115731](https://vektor.jvcr.se/cve/CVE-2026-115731) | Perforce | Puppet Enterprise | 2026-11-17 | Fix this sprint | 0.0069 |
-| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0047 |
-| [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0194 |
-| [CVE-2026-111560](https://vektor.jvcr.se/cve/CVE-2026-111560) | Barracuda Networks | Multiple Products | 2026-11-10 | Fix this sprint | 0.0908 |
-| [CVE-2026-111793](https://vektor.jvcr.se/cve/CVE-2026-111793) | Openwave Messaging Limited | Webtop Media Transcoder | 2026-11-10 | Fix this sprint | 0.0064 |
-| [CVE-2026-116606](https://vektor.jvcr.se/cve/CVE-2026-116606) | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 2026-11-10 | Fix now | 0.1095 |
-| [CVE-2026-124194](https://vektor.jvcr.se/cve/CVE-2026-124194) | Microsoft | Office | 2026-11-10 | Fix this sprint | 0.0162 |
+| [CVE-2025-42884](https://vektor.jvcr.se/cve/CVE-2025-42884) | SAP | NetWeaver | 2026-11-20 | Fix this sprint | 0.0071 |
+| [CVE-2026-123890](https://vektor.jvcr.se/cve/CVE-2026-123890) | Broadcom | VMware vCenter | 2026-11-20 | Fix now | 0.0299 |
+| [CVE-2026-129448](https://vektor.jvcr.se/cve/CVE-2026-129448) | Apache | Roller | 2026-11-20 | Fix now | 0.0546 |
+| [CVE-2026-76466](https://vektor.jvcr.se/cve/CVE-2026-76466) | Cisco | Expressway Series | 2026-11-20 | Fix now | 0.0219 |
+| [CVE-2024-10441](https://vektor.jvcr.se/cve/CVE-2024-10441) | Synology | DiskStation Manager (DSM) | 2026-11-18 | Fix now | 0.0313 |
+| [CVE-2026-40217](https://vektor.jvcr.se/cve/CVE-2026-40217) | BerriAI | LiteLLM | 2026-11-18 | Fix this sprint | 0.7800 |
+| [CVE-2026-90436](https://vektor.jvcr.se/cve/CVE-2026-90436) | Apache | Axis | 2026-11-18 | Fix now | 0.0381 |
+| [CVE-2026-90817](https://vektor.jvcr.se/cve/CVE-2026-90817) | Vanderbilt University | Research Electronic Data Capture (REDCap) | 2026-11-18 | Fix now | 0.3340 |
+| [CVE-2026-115731](https://vektor.jvcr.se/cve/CVE-2026-115731) | Perforce | Puppet Enterprise | 2026-11-17 | Fix this sprint | 0.0123 |
+| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0115 |
+| [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0327 |
+| [CVE-2026-111560](https://vektor.jvcr.se/cve/CVE-2026-111560) | Barracuda Networks | Multiple Products | 2026-11-10 | Fix this sprint | 0.6377 |
+| [CVE-2026-111793](https://vektor.jvcr.se/cve/CVE-2026-111793) | Openwave Messaging Limited | Webtop Media Transcoder | 2026-11-10 | Fix this sprint | 0.0117 |
+| [CVE-2026-116606](https://vektor.jvcr.se/cve/CVE-2026-116606) | Barracuda Networks | Barracuda Email Security Gateway (ESG) | 2026-11-10 | Fix now | 0.7452 |
+| [CVE-2026-124194](https://vektor.jvcr.se/cve/CVE-2026-124194) | Microsoft | Office | 2026-11-10 | Fix this sprint | 0.0194 |
 <!-- stats:end -->
 
 ## Fields
