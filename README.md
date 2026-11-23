@@ -10,7 +10,7 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-22. KEV catalog 2026.11.20, 1790 entries.
+Last build: 2026-11-23. KEV catalog 2026.11.20, 1790 entries.
 
 | Decision | Entries |
 |---|---|
@@ -22,7 +22,7 @@ Latest KEV additions:
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
 | [CVE-2025-42884](https://vektor.jvcr.se/cve/CVE-2025-42884) | SAP | NetWeaver | 2026-11-20 | Fix this sprint | 0.0071 |
-| [CVE-2026-123890](https://vektor.jvcr.se/cve/CVE-2026-123890) | Broadcom | VMware vCenter | 2026-11-20 | Fix now | 0.0299 |
+| [CVE-2026-123890](https://vektor.jvcr.se/cve/CVE-2026-123890) | Broadcom | VMware vCenter | 2026-11-20 | Fix now | 0.0353 |
 | [CVE-2026-129448](https://vektor.jvcr.se/cve/CVE-2026-129448) | Apache | Roller | 2026-11-20 | Fix now | 0.0546 |
 | [CVE-2026-76466](https://vektor.jvcr.se/cve/CVE-2026-76466) | Cisco | Expressway Series | 2026-11-20 | Fix now | 0.0219 |
 | [CVE-2024-10441](https://vektor.jvcr.se/cve/CVE-2024-10441) | Synology | DiskStation Manager (DSM) | 2026-11-18 | Fix now | 0.0313 |
