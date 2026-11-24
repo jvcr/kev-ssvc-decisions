@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-23T03:07:13.390Z",
- "count": 1790,
- "kev_catalog_version": "2026.11.20",
- "kev_date_released": "2026-11-20T17:48:39.1516Z",
+ "generated_at": "2026-11-24T06:24:25.160Z",
+ "count": 1792,
+ "kev_catalog_version": "2026.11.23",
+ "kev_date_released": "2026-11-23T19:43:55.7979Z",
  "decision_model_version": "2026-10-26.r12",
  "mission_assumed": "medium",
  "without_vektor_record": [],
@@ -24,6 +24,86 @@
   }
  },
  "vulnerabilities": [
+  {
+   "cve_id": "CVE-2026-133968",
+   "kev": {
+    "vendor_project": "Project MONAI",
+    "product": "MONAI Label",
+    "vulnerability_name": "Project MONAI MONAI Label Path Traversal Vulnerability",
+    "date_added": "2026-11-23",
+    "due_date": "2026-11-26",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "act",
+    "label": "Fix now",
+    "ssvc_table_result": "Act",
+    "sla_days": 3,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "yes",
+      "source": "CISA SSVC"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CISA SSVC"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.03759,
+    "percentile": 0.90172,
+    "date": "2026-11-22"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-133968"
+  },
+  {
+   "cve_id": "CVE-2026-134624",
+   "kev": {
+    "vendor_project": "N-able",
+    "product": "MailAssure",
+    "vulnerability_name": "N-able MailAssure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability",
+    "date_added": "2026-11-23",
+    "due_date": "2026-11-26",
+    "known_ransomware_campaign_use": "Unknown"
+   },
+   "decision": {
+    "value": "attend",
+    "label": "Fix this sprint",
+    "ssvc_table_result": "Attend",
+    "sla_days": 14,
+    "policy_floor": null,
+    "inputs": {
+     "exploitation": {
+      "value": "active",
+      "source": "CISA KEV"
+     },
+     "automatable": {
+      "value": "no",
+      "source": "CISA SSVC"
+     },
+     "technical_impact": {
+      "value": "total",
+      "source": "CISA SSVC"
+     },
+     "mission": "medium"
+    },
+    "model_version": "2026-10-26.r12"
+   },
+   "epss": {
+    "score": 0.00354,
+    "percentile": 0.2969,
+    "date": "2026-11-23"
+   },
+   "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-134624"
+  },
   {
    "cve_id": "CVE-2025-42884",
    "kev": {
@@ -58,9 +138,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.00714,
-    "percentile": 0.54582,
-    "date": "2026-11-21"
+    "score": 0.00902,
+    "percentile": 0.60644,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-42884"
   },
@@ -192,7 +272,7 @@
     "vulnerability_name": "Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
     "date_added": "2026-11-18",
     "due_date": "2026-11-21",
-    "known_ransomware_campaign_use": "Unknown"
+    "known_ransomware_campaign_use": "Known"
    },
    "decision": {
     "value": "act",
@@ -258,9 +338,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.78004,
-    "percentile": 0.99581,
-    "date": "2026-11-21"
+    "score": 0.82799,
+    "percentile": 0.99678,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-40217"
   },
@@ -298,9 +378,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.03813,
-    "percentile": 0.90307,
-    "date": "2026-11-21"
+    "score": 0.05874,
+    "percentile": 0.93395,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-90436"
   },
@@ -378,9 +458,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01231,
-    "percentile": 0.69681,
-    "date": "2026-11-21"
+    "score": 0.12839,
+    "percentile": 0.96392,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-115731"
   },
@@ -618,9 +698,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.01939,
-    "percentile": 0.80646,
-    "date": "2026-11-21"
+    "score": 0.24894,
+    "percentile": 0.97959,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2026-124194"
   },
@@ -10138,9 +10218,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.9012,
-    "percentile": 0.99799,
-    "date": "2026-10-22"
+    "score": 0.91387,
+    "percentile": 0.99816,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2025-26399"
   },
@@ -23338,9 +23418,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.14179,
-    "percentile": 0.96576,
-    "date": "2026-10-22"
+    "score": 0.16871,
+    "percentile": 0.97126,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2024-49039"
   },
@@ -25138,9 +25218,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.18379,
-    "percentile": 0.97226,
-    "date": "2026-10-22"
+    "score": 0.2201,
+    "percentile": 0.97719,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2024-40766"
   },
@@ -36018,9 +36098,9 @@
     "model_version": "2026-10-26.r12"
    },
    "epss": {
-    "score": 0.78005,
-    "percentile": 0.99576,
-    "date": "2026-10-22"
+    "score": 0.84129,
+    "percentile": 0.99702,
+    "date": "2026-11-23"
    },
    "vektor_url": "https://vektor.jvcr.se/cve/CVE-2023-24880"
   },
