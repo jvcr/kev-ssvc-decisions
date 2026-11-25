@@ -10,32 +10,33 @@ A GitHub Actions workflow rebuilds both files once a day and commits them when a
 ## Current snapshot
 
 <!-- stats:start -->
-Last build: 2026-11-24. KEV catalog 2026.11.23, 1792 entries.
+Last build: 2026-11-25. KEV catalog 2026.11.24, 1795 entries.
 
 | Decision | Entries |
 |---|---|
-| Fix now (`act`) | 706 |
+| Fix now (`act`) | 708 |
 | Fix this sprint (`attend`) | 1086 |
+| No Vektor record yet | 1 |
 
 Latest KEV additions:
 
 | CVE | Vendor | Product | Added to KEV | Decision | EPSS |
 |---|---|---|---|---|---|
-| [CVE-2026-133968](https://vektor.jvcr.se/cve/CVE-2026-133968) | Project MONAI | MONAI Label | 2026-11-23 | Fix now | 0.0376 |
-| [CVE-2026-134624](https://vektor.jvcr.se/cve/CVE-2026-134624) | N-able | MailAssure | 2026-11-23 | Fix this sprint | 0.0035 |
+| [CVE-2026-131914](https://vektor.jvcr.se/cve/CVE-2026-131914) | Idunno | AntiCsrf | 2026-11-24 | Fix now | 0.0061 |
+| [CVE-2026-132165](https://vektor.jvcr.se/cve/CVE-2026-132165) | Drupal | Core | 2026-11-24 |  |  |
+| [CVE-2026-132224](https://vektor.jvcr.se/cve/CVE-2026-132224) | Optimizely | Web Experimentation | 2026-11-24 | Fix now | 0.0041 |
+| [CVE-2026-133968](https://vektor.jvcr.se/cve/CVE-2026-133968) | Project MONAI | MONAI Label | 2026-11-23 | Fix now | 0.4980 |
+| [CVE-2026-134624](https://vektor.jvcr.se/cve/CVE-2026-134624) | N-able | MailAssure | 2026-11-23 | Fix this sprint | 0.0062 |
 | [CVE-2025-42884](https://vektor.jvcr.se/cve/CVE-2025-42884) | SAP | NetWeaver | 2026-11-20 | Fix this sprint | 0.0090 |
 | [CVE-2026-123890](https://vektor.jvcr.se/cve/CVE-2026-123890) | Broadcom | VMware vCenter | 2026-11-20 | Fix now | 0.0353 |
-| [CVE-2026-129448](https://vektor.jvcr.se/cve/CVE-2026-129448) | Apache | Roller | 2026-11-20 | Fix now | 0.0546 |
+| [CVE-2026-129448](https://vektor.jvcr.se/cve/CVE-2026-129448) | Apache | Roller | 2026-11-20 | Fix now | 0.4007 |
 | [CVE-2026-76466](https://vektor.jvcr.se/cve/CVE-2026-76466) | Cisco | Expressway Series | 2026-11-20 | Fix now | 0.0219 |
 | [CVE-2024-10441](https://vektor.jvcr.se/cve/CVE-2024-10441) | Synology | DiskStation Manager (DSM) | 2026-11-18 | Fix now | 0.0313 |
 | [CVE-2026-40217](https://vektor.jvcr.se/cve/CVE-2026-40217) | BerriAI | LiteLLM | 2026-11-18 | Fix this sprint | 0.8280 |
 | [CVE-2026-90436](https://vektor.jvcr.se/cve/CVE-2026-90436) | Apache | Axis | 2026-11-18 | Fix now | 0.0587 |
 | [CVE-2026-90817](https://vektor.jvcr.se/cve/CVE-2026-90817) | Vanderbilt University | Research Electronic Data Capture (REDCap) | 2026-11-18 | Fix now | 0.3340 |
 | [CVE-2026-115731](https://vektor.jvcr.se/cve/CVE-2026-115731) | Perforce | Puppet Enterprise | 2026-11-17 | Fix this sprint | 0.1284 |
-| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0115 |
-| [CVE-2026-123039](https://vektor.jvcr.se/cve/CVE-2026-123039) | Check Point | Multiple Products | 2026-11-13 | Fix this sprint | 0.0327 |
-| [CVE-2026-111560](https://vektor.jvcr.se/cve/CVE-2026-111560) | Barracuda Networks | Multiple Products | 2026-11-10 | Fix this sprint | 0.6377 |
-| [CVE-2026-111793](https://vektor.jvcr.se/cve/CVE-2026-111793) | Openwave Messaging Limited | Webtop Media Transcoder | 2026-11-10 | Fix this sprint | 0.0117 |
+| [CVE-2026-114713](https://vektor.jvcr.se/cve/CVE-2026-114713) | UnrealIRCd | UnrealIRCd | 2026-11-13 | Fix now | 0.0135 |
 <!-- stats:end -->
 
 ## Fields
